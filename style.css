@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: black;
+}
+
+.app {
+    background: white;
+    width: auto;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 10px;
+    display: block;
+    width: 80%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* transition: all 2s ease-in-out; */
+}
+
+.btn:hover {
+    background-color: #001e4d;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+
+.an {
+    display: none;
+}
+
+#next-button {
+    width: 40%;
+    color: white;
+    background-color: rgb(28, 28, 83);
+    display: none;
+}
+
+.correct {
+    background-color: greenyellow;
+}
+
+.incorrect {
+    background-color: rgb(255, 94, 0);
+}
